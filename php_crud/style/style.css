@@ -1,0 +1,44 @@
+form {
+    width: 10rem;
+}
+
+form input {
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    margin-top: 2rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+a#add {
+    position: absolute;
+    right: 0;
+}
+
+div.m-4 {
+    position: relative;
+}
+
+.content {
+    width: 50%;
+}
+
+.content p {
+    width: 100%;
+    word-wrap: break-word;
+}
